@@ -245,7 +245,7 @@ class laptop {
 						cout << " WiFi is ON " << "\n" "\n" ; 
 						WiFi = "on" ;
 					}
-					if( WiFi == "no" ){
+					if( WiFi == "off" ){
 						
 						cout << "\n \n" ;
 						cout << " WiFi is OFF " << "\n" "\n" ; 
@@ -603,11 +603,16 @@ class laptop {
 
 int main() {
 	
-			laptop yoga;
-			yoga.setlaptopdetails();
-			yoga.laptopdetail();
-			yoga.charging();
-			yoga.battery();
+	
+	string a="9.8";
+	int c;
+	c==a;
+	cout<<c;
+//			laptop yoga;
+//			yoga.setlaptopdetails();
+//			yoga.laptopdetail();
+//			yoga.charging();
+//			yoga.battery();
 //			yoga.setlaptopinsides();yoga.laptopinside();
 //            yoga.laptop_mode();
 //			yoga.login();
@@ -619,7 +624,7 @@ int main() {
 //			yoga.battery();
 //			yoga.free_space();
 //			yoga.charging();
-			yoga.set_time();
+//			yoga.set_time();
 //			yoga.time();
 //			yoga.status();
 //			yoga.created_files();
